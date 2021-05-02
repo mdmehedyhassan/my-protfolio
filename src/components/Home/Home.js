@@ -8,7 +8,7 @@ import './Home.css'
 
 const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
 
-const numBalls = 80;
+const numBalls = 50;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {

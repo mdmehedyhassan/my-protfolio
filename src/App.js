@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="container main-app-container">
       <Router>
-        <Header></Header>
+          <Header></Header>
         <div >
           <Switch>
             <Route path="/home">
