@@ -39,7 +39,7 @@ const Resume = () => {
                     <div className="border border-danger border-5 rounded-3 m-1 p-2">
                         <h1 className="text-center text-warning">Resume</h1>
                         <h4 style={{ textAlign: 'justify' }}> I am full Stack web Developer. If you want to view or download my resume, click on the button below.</h4>
-                        <a className="btn btn-success" target="_blank" href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
+                        <a className="btn btn-success"  href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
                     </div>
                 </div>
                 <div className="col-md-4"></div>
