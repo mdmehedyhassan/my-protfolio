@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <div className="row align-items-center ">
+            <div className="row align-items-center mb-5">
                 <div className="col-6 p-2">
-                    <h1 className=" text-info">Mehedy</h1>
+                    <i className="text-info"><b>mehedy.com</b></i>
                 </div>
                 <div className="col-6 justify-content-end ">
                     <Navbar className="justify-content-end  " expand="lg">
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav ">
+                        <Navbar.Toggle className="bg-danger" aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse  id="basic-navbar-nav">
                             <Nav className="mr-auto" activeKey="/">
                                 <Link className="p-2 text-danger" to="/home"><FontAwesomeIcon icon={faHome} /> Home</Link>
                                 <Link className="p-2 text-danger " to="/about"><FontAwesomeIcon icon={faAddressCard} /> About</Link>
