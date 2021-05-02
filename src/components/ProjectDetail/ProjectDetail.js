@@ -8,7 +8,7 @@ const ProjectDetail = ({ project }) => {
     return (
         <div className="col-md-6 ">
             <div className="m-2 text-success">
-                <Card className='project-detail-card' style={{ width: '100%',  border: '5px solid red', borderRadius: '15px'  }}>
+                <Card className='project-detail-card' style={{ width: '100%',  border: '5px solid red', borderRadius: '15px', backgroundColor: 'rgb(48, 32, 79)'  }}>
                     <div className='p-3'>
                         <Card.Img style={{ border: '3px solid red', borderRadius: '10px' }} variant="top" src={project.img} />
                     </div>
