@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogDetail from '../BlogDetail/BlogDetail';
+import blog from '../../images/blog.png'
 
 const blogDetails =[
     {
@@ -42,7 +43,10 @@ const blogDetails =[
 const Blog = () => {
     return (
         <div>
-            <h1 className="text-center text-danger border border-info p-2 rounded-pill">This is blog</h1>
+            <h1 className="text-center text-danger border border-info p-2 rounded-pill">My Articles </h1>
+            <div className="text-center">
+               <img className="w-75" src={blog} alt=""/>
+            </div>
             <div className="row">
                 {
                     blogDetails.map(blog => <BlogDetail key={blog.id} blog={blog}></BlogDetail>)

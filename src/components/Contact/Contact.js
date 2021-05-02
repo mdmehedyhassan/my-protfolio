@@ -1,5 +1,8 @@
 import React from 'react';
 import contact from '../../images/contact.gif'
+import mobile from '../../images/mobile.gif'
+import email from '../../images/email.gif'
+import location from '../../images/location.gif'
 
 const Contact = () => {
     return (
@@ -18,16 +21,40 @@ const Contact = () => {
                 </div>
             </div>
             <div className="row mt-5 mb-5">
-                    <div className="col-md-4 text-center">
-                        <h2>Hello</h2>
-                    </div>
-                    <div className="col-md-4 text-center">
-                        <h2>hello2</h2>
-                    </div>
-                    <div className="col-md-4 text-center">
-                        <h2>hello3</h2>
+                <div className="col-md-4 text-center">
+                    <div className="m-2 border border-danger">
+                        <div>
+                            <img className="w-100 p-2" src={mobile} alt="" />
+                        </div>
+                        <div>
+                            <h2>Mobile Number</h2>
+                            <h5>+880 1870 289 584</h5>
+                        </div>
                     </div>
                 </div>
+                <div className="col-md-4 text-center">
+                    <div className="m-2 border border-danger">
+                        <div>
+                            <img className="w-100 p-2" src={email} alt="" />
+                        </div>
+                        <div>
+                            <h2>Email Address</h2>
+                            <h5>mdmehedyh55@gamil.com</h5>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 text-center">
+                    <div className="m-2 border border-danger">
+                        <div>
+                            <img className="w-100 p-2" src={location} alt="" />
+                        </div>
+                        <div>
+                            <h2>Location</h2>
+                            <h5>383/B, Khilgaon Taltola, Dhaka-1219</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
