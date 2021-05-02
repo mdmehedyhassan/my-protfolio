@@ -42,7 +42,7 @@ const blogDetails =[
 const Blog = () => {
     return (
         <div>
-            <h1 className="text-center text-danger">This is blog</h1>
+            <h1 className="text-center text-danger border border-info p-2 rounded-pill">This is blog</h1>
             <div className="row">
                 {
                     blogDetails.map(blog => <BlogDetail key={blog.id} blog={blog}></BlogDetail>)

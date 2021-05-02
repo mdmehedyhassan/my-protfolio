@@ -5,6 +5,7 @@ import React from 'react';
 const Resume = () => {
     return (
         <div className="text-light pt-5 mt-5 pb-5 mb-5">
+            <h1 className="text-center text-danger border border-info p-2 mt-3 rounded-pill">Resume, Education, Work History</h1>
             <div className="row">
                 <div className="col-md-6 col-12 project-detail-card">
                     <div className=" border border-danger border-5 rounded-3 m-1 p-2">

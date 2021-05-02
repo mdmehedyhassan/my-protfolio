@@ -63,7 +63,7 @@ const Project = () => {
 
     return (
         <div className="text-dark">
-            <h1 className="text-center text-danger mt-5">This is My Resent Project</h1>
+            <h1 className="text-center rounded-pill text-danger mt-5 border p-2 border-info">This is My Resent Project</h1>
             <div className="row">
                 {
                     projectDetails.map(project => <ProjectDetail key={project.id} project={project}></ProjectDetail>)
