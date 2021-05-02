@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className ="mb-5 pb-5 mt-5 pt-5">
             <h2 className="text-center text-light">About</h2>
             <div className="row mt-5 mb-5  text-light">
                 <p className="col-md-6" style={{ textAlign: 'justify' }}><b className="text-info">Myself:</b> I am Mehedy Hassan. I am a Professional Web Developer. I can do HTML, CSS, JS React & others programming languages in professionally. I have learned web development since 2020. Now I can do all kinds of web development work. I always want to learn something new and benefit people through it.</p>
