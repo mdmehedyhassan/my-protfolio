@@ -2,7 +2,7 @@
     background-color: rgb(1, 0, 7) !important; 
     position: relative !important;
     animation-name: example !important;
-    animation-duration: 3s !important;
+    animation-duration: 2s !important;
     animation-delay: .5s !important;
 }
 @keyframes example {
