@@ -16,8 +16,8 @@ const ProjectDetail = ({ project }) => {
                         <Card.Title style={{fontSize: '2em'}} className="text-danger"><b>{project.title}</b></Card.Title>
                         <Card.Text style={{ textAlign: 'justify' }}><b className="text-info">Info:</b> {project.description}</Card.Text>
                         <Card.Text style={{ textAlign: 'justify' }}><b className="text-info">technology:</b> {project.technology}</Card.Text>
-                        <a className="  btn btn-danger m-2" href={project.liveLink} target="_blank"> <FontAwesomeIcon icon={faFileImage} /> Live Site</a>
-                        <a className="btn btn-danger m-2" href={project.codeLink} target="_blank"><FontAwesomeIcon icon={faFileCode} /> GitHub code link </a>
+                        <a className="  btn btn-danger m-2" href={project.liveLink}   > <FontAwesomeIcon icon={faFileImage} /> Live Site</a>
+                        <a className="btn btn-danger m-2" href={project.codeLink}   ><FontAwesomeIcon icon={faFileCode} /> GitHub code link </a>
                     </Card.Body>
                 </Card>
             </div>

@@ -13,13 +13,13 @@ const HomeHeader = () => {
                 <h3>Full Stack Web developer</h3>
                 <h3>with in Bangladesh</h3>
                 <div className="col d-flex ">
-                <a className="p-2" target="_blank"  href="https://www.facebook.com/mehedysr"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a className="p-2  text-light" target="_blank"   href="https://github.com/mdmehedyhassan"><FontAwesomeIcon icon={faGithub} /></a>
-                <a className="p-2 text-primary" target="_blank"   href="https://twitter.com/MdMehedyHassa10"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a className="p-2" target="_blank"   href="https://www.linkedin.com/in/md-mehedy-hassan-387278203/"><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a className="p-2 text-danger"  target="_blank"  href="https://www.youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a>
+                <a className="p-2"     href="https://www.facebook.com/mehedysr"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a className="p-2  text-light"      href="https://github.com/mdmehedyhassan"><FontAwesomeIcon icon={faGithub} /></a>
+                <a className="p-2 text-primary"      href="https://twitter.com/MdMehedyHassa10"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a className="p-2"      href="https://www.linkedin.com/in/md-mehedy-hassan-387278203/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a className="p-2 text-danger"      href="https://www.youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a>
             </div>
-                <a className="btn btn-success" target="_blank" href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
+                <a className="btn btn-success"    href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
             </div>
             <div className="col-md-6">
                 <img className="w-100" src={mehedy1} alt=""/>
