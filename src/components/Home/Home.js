@@ -45,6 +45,7 @@ balls.forEach((el, i, ra) => {
       easing: "ease-in-out"
     }
   );
+  console.log(anim)
 });
 
 const Home = () => {
