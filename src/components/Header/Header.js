@@ -1,4 +1,4 @@
-import { faAddressCard, faFileWord, faHome, faTasks, faThLarge } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faFileWord, faHome, faMobile, faTasks, faThLarge } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
@@ -21,6 +21,7 @@ const Header = () => {
                                 <Link className="p-2  text-danger" to="/project"><FontAwesomeIcon icon={faTasks} /> Project</Link>
                                 <Link className="p-2 text-danger" to="/resume"><FontAwesomeIcon icon={faFileWord} /> Resume</Link>
                                 <Link className="p-2 text-danger" to="/blog"><FontAwesomeIcon icon={faThLarge} /> Blog</Link>
+                                <Link className="p-2 text-danger" to="/contact"><FontAwesomeIcon icon={faMobile} /> Contact</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
