@@ -3,14 +3,15 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import mehedy1 from '../../images/mehedy1.png'
+import './HomeHeader.css'
 
 const HomeHeader = () => {
     return (
         <div className="row mb-5 d-flex align-items-center text-danger">
-            <div className="col-md-6">
+            <div className="col-md-6 font-creepster">
                 <h1>Hello, I'M </h1>
-                <h1>MD Mehedy Hassan</h1>
-                <h3 className="text-info">Full Stack Web developer</h3>
+                <h1 className="font-monoton">MD Mehedy Hassan</h1>
+                <h3 className="text-info ">Full Stack Web developer</h3>
                 <h3 className="text-info">with in Bangladesh</h3>
                 <div className="col d-flex ">
                 <a className="p-2"     href="https://www.facebook.com/mehedysr"><FontAwesomeIcon icon={faFacebook} /></a>

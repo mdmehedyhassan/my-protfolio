@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.font-monoton{
+    font-family: 'Monoton', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.font-creepster{
+    font-family: 'Gloria Hallelujah', cursive;
+}
