@@ -9,7 +9,7 @@ const BlogDetail = ({ blog }) => {
                 <div className="text-center p-2">
                     <img className="w-100" src={blog.img} alt="" />
                 </div>
-                <h4 className="text-danger p-2">How to {blog.title}?</h4>
+                <h5 className="text-danger p-2">How to {blog.title}?</h5>
                 <p className="text-info">{blog.description}</p>
                 <a href={blog.link} className="btn btn-danger m-2">Read Continue... <FontAwesomeIcon icon={faSignInAlt} /></a>
             </div>
