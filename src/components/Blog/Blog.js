@@ -20,7 +20,7 @@ const blogDetails =[
     {
         id: 2,
         title: 'How to work React? I come with you for 10 fact in React.',
-        description: 'ReactJS is a medium where you can smooth out all the JavaScript, HTML & CSS together if you want. React is very easy to use due to which its popularity is increasing day by day. It is very easy...',
+        description: 'ReactJS is a medium where you can smooth out all the JavaScript, HTML & CSS together if you want. React is very easy to use due to which its popularity is increasing day by day...',
         img: 'https://miro.medium.com/max/414/1*-bCARnWrK9r3OYTGLA7uDw.png',
         link: 'https://mdmehedyh55.medium.com/how-to-work-react-i-come-with-you-for-10-fact-in-react-c7ba7bd5ba3c'
     }
