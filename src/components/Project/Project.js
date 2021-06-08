@@ -14,12 +14,12 @@ const projectDetails = [
     },
     {
         id: 2,
-        title: 'Super Riders',
-        img: 'https://i.ibb.co/wcwB4bt/super.png',
-        description: 'In the project directory, Here you can see the details of all the teams in the English Premier League. ',
-        technology: 'React.js, JavaScript, Bootstrap, React Router, Github.',
-        liveLink: 'https://super-riders-m.web.app/',
-        codeLink: 'https://github.com/mdmehedyhassan/super-riders'
+        title: 'Shoplify',
+        img: 'https://i.ibb.co/N2ybf93/shoplify.png',
+        description: 'This is my first team project. Here the three of us worked together. Here we are creating an ecommerce site.',
+        technology: 'GitHub, React Redux',
+        liveLink: 'https://shoplify-6376f.web.app/',
+        codeLink: 'https://github.com/ash358241/your-shop'
     },
     {
         id: 3,
@@ -56,7 +56,17 @@ const projectDetails = [
         technology: 'JavaScript, Boostrap, CSS, HTML, GitHub',
         liveLink: 'https://mdmehedyhassan.github.io/mega-bus/',
         codeLink: 'https://github.com/mdmehedyhassan/mega-bus'
+    },
+    {
+        id: 7,
+        title: 'Super Riders',
+        img: 'https://i.ibb.co/wcwB4bt/super.png',
+        description: 'In the project directory, Here you can see the details of all the teams in the English Premier League. ',
+        technology: 'React.js, JavaScript, Bootstrap, React Router, Github.',
+        liveLink: 'https://super-riders-m.web.app/',
+        codeLink: 'https://github.com/mdmehedyhassan/super-riders'
     }
+    
 ]
 
 const Project = () => {
