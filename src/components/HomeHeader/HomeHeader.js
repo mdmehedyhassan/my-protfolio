@@ -9,7 +9,7 @@ import './HomeHeader.css'
 const HomeHeader = () => {
     return (
         <div className="row mb-5 d-flex align-items-center text-danger">
-            <div className="col-md-6 font-creepster">
+            <div className="col-md-6 font-creepster animate__animated animate__fadeInLeft">
                 <h1>Hello, I'M </h1>
                 <h1 className="font-monoton text-success ">MD Mehedy Hassan</h1>
                 <TextAnimation></TextAnimation>
@@ -22,7 +22,7 @@ const HomeHeader = () => {
             </div>
                 <a className="btn btn-danger"    href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 animate__animated animate__fadeInRight">
                 <img className="w-100" src={mehedy1} alt=""/>
             </div>
         </div>
