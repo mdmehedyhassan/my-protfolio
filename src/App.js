@@ -18,41 +18,43 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="container main-app-container">
-      <Router>
+    <div className="main-app-container">
+      <div className="container">
+        <Router>
           <Header></Header>
-        <div >
-          <Switch>
-            <Route path="/home">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/project">
-              <Project />
-            </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
-            <Route path="/blog">
-              <Blog />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="*">
-              <NoMatch />
-            </Route>
-          </Switch>
-        </div>
-        <Footer />
-      </Router>
-    </div>
+          <div >
+            <Switch>
+              <Route path="/home">
+                <Home />
+              </Route>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/project">
+                <Project />
+              </Route>
+              <Route path="/resume">
+                <Resume />
+              </Route>
+              <Route path="/blog">
+                <Blog />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="*">
+                <NoMatch />
+              </Route>
+            </Switch>
+          </div>
+          <Footer />
+        </Router>
+      </div>
 
+    </div>
   );
 }
 

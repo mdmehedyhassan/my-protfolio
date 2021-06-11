@@ -8,10 +8,10 @@ import './HomeHeader.css'
 
 const HomeHeader = () => {
     return (
-        <div className="row mb-5 d-flex align-items-center text-info">
+        <div className="row mb-5 d-flex align-items-center text-danger">
             <div className="col-md-6 font-creepster">
                 <h1>Hello, I'M </h1>
-                <h1 className="font-monoton text-danger">MD Mehedy Hassan</h1>
+                <h1 className="font-monoton text-success ">MD Mehedy Hassan</h1>
                 <TextAnimation></TextAnimation>
                 <div className="col d-flex ">
                 <a className="p-2"     href="https://www.facebook.com/mehedysr"><FontAwesomeIcon icon={faFacebook} /></a>
