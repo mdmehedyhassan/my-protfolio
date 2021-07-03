@@ -27,8 +27,8 @@ const Contact = () => {
                             <img className="w-100 p-2" src={mobile} alt="" />
                         </div>
                         <div>
-                            <h2 className="text-danger">Mobile Number</h2>
-                            <h5 className="text-info">+880 1870 289 584</h5>
+                            <h2 className="text-warning">Mobile Number</h2>
+                            <h5 className="text-success">+880 1870 289 584</h5>
                         </div>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ const Contact = () => {
                             <img className="w-100 p-2" src={email} alt="" />
                         </div>
                         <div>
-                            <h2 className="text-danger">Email Address</h2>
-                            <h5 className="text-info">mdmehedyh55@gamil.com</h5>
+                            <h2 className="text-warning">Email Address</h2>
+                            <h5 className="text-success">mdmehedyh55@gamil.com</h5>
                         </div>
                     </div>
                 </div>
@@ -49,8 +49,8 @@ const Contact = () => {
                             <img className="w-100 p-2" src={location} alt="" />
                         </div>
                         <div>
-                            <h2 className="text-danger">Location</h2>
-                            <h5 className="text-info">383/B, Khilgaon Taltola, Dhaka-1219</h5>
+                            <h2 className="text-warning">Location</h2>
+                            <h5 className="text-success">383/B, Khilgaon Taltola, Dhaka-1219</h5>
                         </div>
                     </div>
                 </div>
