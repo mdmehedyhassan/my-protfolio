@@ -9,18 +9,18 @@ const About = () => {
             <div className="text-center">
                 <img className="w-50" src={about} alt="" />
             </div>
-            <div className="row  text-info">
+            <div className="row  text-success">
                 <div className="col-md-6 col-12 p-2  project-detail-card">
-                    <p className="border border-danger border-5 rounded-3 m-1 p-2" style={{ textAlign: 'justify' }}><b className="  text-danger">Myself:</b> I am Mehedy Hassan. I am a Professional Web Developer. I can do HTML, CSS, JS React & others programming languages in professionally. I have learned web development since 2020. Now I can do all kinds of web development work. I always want to learn something new and benefit people through it.</p>
+                    <p className="h-100 box-shadow-style"><b className="  text-warning">Myself:</b> I am Mehedy Hassan. I am a Professional Web Developer. I can do HTML, CSS, JS React & others programming languages in professionally. I have learned web development since 2020. Now I can do all kinds of web development work. I always want to learn something new and benefit people through it.</p>
                 </div>
                 <div className="col-md-6 col-12 p-2  project-detail-card">
-                    <p className="border border-danger border-5 rounded-3 m-1 p-2" style={{ textAlign: 'justify' }}><b className="  text-danger">Diligent Project Management:</b> Offering a proven record of success leading all phases of diverse React  Projects, Solutions Designs, Enterprise Deployments, Cross Platform Migrations, Annual Maintenance Support etc etc… I like to learn new things and I like to do something new all the time. I am happy when people benefit from my work. </p>
+                    <p className="h-100 box-shadow-style"><b className="  text-warning">Diligent Project Management:</b> Offering a proven record of success leading all phases of diverse React  Projects, Solutions Designs, Enterprise Deployments, Cross Platform Migrations, Annual Maintenance Support etc etc… I like to learn new things and I like to do something new all the time. I am happy when people benefit from my work. </p>
                 </div>
                 <div className="col-md-6 col-12 p-2  project-detail-card">
-                    <p className="border border-danger border-5 rounded-3 m-1 p-2" style={{ textAlign: 'justify' }}><b className="  text-danger">Business Strategist:</b> Plan and Manage high value projects aligning business goals with technology solutions to drive process improvements, competitive advantage and bottom-line gains. Apply change of Strategy when necessary to produce high-quality deliverables which meets timeline and budgetary targets.</p>
+                    <p className="h-100 box-shadow-style"><b className="  text-warning">Business Strategist:</b> Plan and Manage high value projects aligning business goals with technology solutions to drive process improvements, competitive advantage and bottom-line gains. Apply change of Strategy when necessary to produce high-quality deliverables which meets timeline and budgetary targets.</p>
                 </div>
                 <div className="col-md-6 col-12 p-2  project-detail-card">
-                    <p className="border border-danger border-5 rounded-3 m-1 p-2" style={{ textAlign: 'justify' }}><b className="  text-danger">Excellent Communicator:</b> Leverage Technical, Business and Financial acumen to communicate effectively with client executives and their respective teams. Conducting Productive Corporate Trainings as MCT, to create opportunity of future business continuation and keep customers aligned with industries best practice.</p>
+                    <p className="h-100 box-shadow-style"><b className="  text-warning">Excellent Communicator:</b> Leverage Technical, Business and Financial acumen to communicate effectively with client executives and their respective teams. Conducting Productive Corporate Trainings as MCT, to create opportunity of future business continuation and keep customers aligned with industries best practice.</p>
                 </div>
             </div>
             <div className="text-danger pt-5 mt-5">

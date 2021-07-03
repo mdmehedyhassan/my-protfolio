@@ -1,0 +1,12 @@
+.box-shadow-style{
+    text-align: justify;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow: 20px 20px 40px gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-shadow-style:hover{
+    box-shadow: 20px 20px 40px black;
+}

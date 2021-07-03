@@ -1,15 +1,12 @@
 .project-detail-card:hover {
-    background-color: rgb(1, 0, 7) !important; 
     position: relative !important;
     animation-name: example !important;
-    animation-duration: 2s !important;
+    animation-duration: 1s !important;
     animation-delay: .5s !important;
-    font-size: 1.3em !important;
+    font-size: 1.1em !important;
+    animation-fill-mode: forwards;
 }
 @keyframes example {
-    0%   {background-color:red; left:0px; top:-20px;}
-    25%  {background-color:yellow; left:0px; top:-40px;}
-    50%  {background-color:blue; left:0px; top:-40px;}
-    75%  {background-color:green; left:0px; top:-40px;}
-    100% {background-color:red; left:0px; top:-40px;}
+    0%   {left:0px; top:-10px;}
+    100% {left:0px; top:-20px;}
 }

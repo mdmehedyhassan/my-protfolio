@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className="row mt-5 mb-5 ">
                 <div className="col-md-4 btn text-center project-detail-card">
-                    <div className="m-2 border border-danger">
+                    <div className="h-100 box-shadow-style">
                         <div>
                             <img className="w-100 p-2" src={mobile} alt="" />
                         </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="col-md-4 btn text-center project-detail-card">
-                    <div className="m-2 border border-danger">
+                    <div className="h-100 box-shadow-style">
                         <div>
                             <img className="w-100 p-2" src={email} alt="" />
                         </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="col-md-4 btn text-center project-detail-card">
-                    <div className="m-2 border border-danger">
+                    <div className="h-100 box-shadow-style">
                         <div>
                             <img className="w-100 p-2" src={location} alt="" />
                         </div>

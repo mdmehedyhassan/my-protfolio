@@ -12,7 +12,7 @@ const Resume = () => {
             </div>
             <div className="row">
                 <div className="col-md-6 col-12 project-detail-card">
-                    <div className=" border border-danger border-5 rounded-3 m-1 p-2">
+                    <div className="box-shadow-style">
                         <div className="text-center">
                             <h1 className="text-warning">Work History</h1>
                             <h5 className="text-danger">(Jan 2020 - Current)</h5>
@@ -26,7 +26,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="col-md-6 col-12 project-detail-card">
-                    <div className="border border-danger border-5 rounded-3 m-1 p-2">
+                    <div className="box-shadow-style">
                         <h1 className="text-center text-warning ">Education</h1>
                         <h5 className="text-danger">Jul 2018 - Current</h5>
                         <h5 className="text-danger">Bachelor of Science: matchers</h5>
@@ -41,9 +41,9 @@ const Resume = () => {
             <div className="row p-5">
                 <div className="col-md-3"></div>
                 <div className="col-md-6 col-12 project-detail-card">
-                    <div className="border border-danger border-5 rounded-3 m-1 p-2">
+                    <div className="box-shadow-style">
                         <h1 className="text-center text-warning">Resume</h1>
-                        <h4 className="text-info" style={{ textAlign: 'justify' }}> I am full Stack web Developer. If you want to view or download my resume, click on the button below.</h4>
+                        <h4 className="text-info" style={{ textAlign: 'justify'}}> I am full Stack web Developer. If you want to view or download my resume, click on the button below.</h4>
                         <div className="text-center">
                             <a className="btn btn-danger" href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
                         </div>

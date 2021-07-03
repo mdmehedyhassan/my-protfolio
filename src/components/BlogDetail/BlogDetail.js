@@ -5,7 +5,7 @@ import React from 'react';
 const BlogDetail = ({ blog }) => {
     return (
         <div className="col-md-4 col-sm-6 col-12 text-center p-3 project-detail-card">
-            <div className="border border-danger border-5 rounded-3 m-1 p-2">
+            <div className="m-1 p-2 h-100 box-shadow-style">
                 <div className="text-center p-2">
                     <img className="w-100" src={blog.img} alt="" />
                 </div>
