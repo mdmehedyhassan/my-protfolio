@@ -1,13 +1,13 @@
 import React from 'react';
-import about from '../../images/about.gif'
-import skill from '../../images/skill.gif'
+import About1 from '../../svg/About1.svg'
+import About2 from '../../svg/About2.svg'
 
 const About = () => {
     return (
         <div className="mb-5 pb-5 mt-5 pt-5">
             <h2 className="text-center text-danger border border-info pb-2 rounded-pill">About</h2>
             <div className="text-center">
-                <img className="w-50" src={about} alt="" />
+                <img className="w-50" src={About1} alt="" />
             </div>
             <div className="row  text-success">
                 <div className="col-md-6 col-12 p-2  project-detail-card">
@@ -26,7 +26,7 @@ const About = () => {
             <div className="text-danger pt-5 mt-5">
                 <h2 className="p-2 mb-2 text-center border rounded-pill border-info">Skills</h2>
                 <div className="text-center">
-                    <img className="w-75" src={skill} alt="" />
+                    <img className="w-75" src={About2} alt="" />
                 </div>
                 <div className="row ">
                     <p className="col-md-2">CSS</p>

@@ -2,9 +2,10 @@ import { faFacebook, faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawe
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import mehedy1 from '../../images/mehedy1.png'
+import HeaderSvg from '../../svg/Header.svg'
 import TextAnimation from '../TextAnimation/TextAnimation';
 import './HomeHeader.css'
+
 
 const HomeHeader = () => {
     return (
@@ -23,7 +24,7 @@ const HomeHeader = () => {
                 <a className="btn btn-danger"    href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} />  Download Resume</a>
             </div>
             <div className="col-md-6 animate__animated animate__fadeInRight">
-                <img className="w-100" src={mehedy1} alt=""/>
+                <img className="w-100" src={HeaderSvg} alt=""/>
             </div>
         </div>
     );
