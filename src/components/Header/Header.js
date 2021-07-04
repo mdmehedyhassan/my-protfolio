@@ -1,4 +1,4 @@
-import { faAddressCard, faFileWord, faHome, faMobile, faTasks, faThLarge, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faFileWord, faHome, faMobile, faTasks, faThLarge, faMoon, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from "react";
 import { Nav, Navbar } from 'react-bootstrap';
@@ -34,6 +34,9 @@ const Header = () => {
                                 <Link className="p-2 text-danger" to="/resume"><FontAwesomeIcon icon={faFileWord} /> Resume</Link>
                                 <Link className="p-2 text-danger" to="/blog"><FontAwesomeIcon icon={faThLarge} /> Blog</Link>
                                 <Link className="p-2 text-danger" to="/contact"><FontAwesomeIcon icon={faMobile} /> Contact</Link>
+                                <div>
+                                <a className="btn btn-danger" style={{ width: '105px',  marginBottom: '5px'}} href="https://drive.google.com/file/d/1quuqu9NmjQz4eSFOkHzfX2kLE0TqXeDV/view"><FontAwesomeIcon icon={faDownload} /> Resume</a>
+                                </div>
                             </Nav>
                         </Navbar.Collapse>
                         <ThemeProvider theme={theme === "dark" ? lightTheme : darkTheme}>
