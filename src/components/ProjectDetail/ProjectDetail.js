@@ -6,7 +6,7 @@ import './ProjectDetail.css'
 
 const ProjectDetail = ({ project }) => {
     return (
-        <div className="col-md-6 ">
+        <div className="col-md-6 " data-aos="zoom-in-up" data-aos-duration="3000">
             <div className="m-2 text-warning">
                 <Card className='project-detail-card box-shadow-style' style={{ width: '100%', border: '3px solid red', borderRadius: '15px', backgroundImage: 'linear-gradient(180deg, white, black)' }}>
                     <div className='p-3'>

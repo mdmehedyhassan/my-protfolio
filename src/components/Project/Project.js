@@ -72,8 +72,8 @@ const projectDetails = [
 const Project = () => {
     return (
         <div className="text-dark">
-            <h1 className="text-center rounded-pill text-danger mt-5 border p-2 border-info">My Resent Project</h1>
-            <div className="text-center">
+            <h1 className="text-center rounded-pill text-danger mt-5 border p-2 border-info"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">My Resent Project</h1>
+            <div className="text-center"  data-aos="zoom-in-down"  data-aos-duration="3000">
                 <img className="w-50" src={project} alt=""/>
             </div>
             <div className="row">

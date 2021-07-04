@@ -4,7 +4,7 @@ import React from 'react';
 
 const BlogDetail = ({ blog }) => {
     return (
-        <div className="col-md-4 col-sm-6 col-12 text-center p-3 project-detail-card" data-aos="flip-left"  data-aos-duration="2000">
+        <div className="col-md-4 col-sm-6 col-12 text-center p-3 project-detail-card" data-aos="flip-left"  data-aos-duration="3000">
             <div className="m-1 p-2 h-100 box-shadow-style">
                 <div className="text-center p-2">
                     <img className="w-100" src={blog.img} alt="" />

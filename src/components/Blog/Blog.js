@@ -29,8 +29,8 @@ const blogDetails =[
 const Blog = () => {
     return (
         <div>
-            <h1 className="text-center text-danger border border-info p-2 rounded-pill">My Articles </h1>
-            <div className="text-center">
+            <h1 className="text-center text-danger border border-info p-2 rounded-pill"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">My Articles </h1>
+            <div className="text-center"  data-aos="zoom-in-down"  data-aos-duration="3000">
                <img className="w-75" src={blog} alt=""/>
             </div>
             <div className="row">
