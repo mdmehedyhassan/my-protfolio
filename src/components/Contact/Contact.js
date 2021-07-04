@@ -1,5 +1,5 @@
 import React from 'react';
-import contact from '../../images/contact.gif'
+import ContactSvg from '../../svg/Contact.svg'
 import mobile from '../../images/mobile.gif'
 import email from '../../images/email.gif'
 import location from '../../images/location.gif'
@@ -10,7 +10,7 @@ const Contact = () => {
             <h1 className="text-center border border-info p-2 mt-3 rounded-pill"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">Contact Me</h1>
             <div className="row">
                 <div className="col-md-6"  data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
-                    <img className="w-100 pt-3" src={contact} alt="" />
+                    <img className="w-100 pt-3" src={ContactSvg} alt="" />
                 </div>
                 <div className="col-md-6 pt-5 mb-5"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <h2 className="text-info">Contact me by email here.</h2>

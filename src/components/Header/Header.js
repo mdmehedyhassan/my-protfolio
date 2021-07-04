@@ -34,15 +34,14 @@ const Header = () => {
                                 <Link className="p-2 text-danger" to="/resume"><FontAwesomeIcon icon={faFileWord} /> Resume</Link>
                                 <Link className="p-2 text-danger" to="/blog"><FontAwesomeIcon icon={faThLarge} /> Blog</Link>
                                 <Link className="p-2 text-danger" to="/contact"><FontAwesomeIcon icon={faMobile} /> Contact</Link>
-                                <ThemeProvider theme={theme === "dark" ? lightTheme : darkTheme}>
-                                    <GlobalStyles />
-                                    <StyledApp>
-                                        <span className="p-2" onClick={() => [themeToggler(), setDarkMode(!darkMode)]}>{darkMode ? <span className="btn btn-outline-info">off <FontAwesomeIcon icon={faMoon} /></span> : <span className="btn btn-dark">on <FontAwesomeIcon icon={faMoon} /></span>} </span>
-                                    </StyledApp>
-                                </ThemeProvider>
                             </Nav>
                         </Navbar.Collapse>
-
+                        <ThemeProvider theme={theme === "dark" ? lightTheme : darkTheme}>
+                            <GlobalStyles />
+                            <StyledApp>
+                                <span className="p-2" onClick={() => [themeToggler(), setDarkMode(!darkMode)]}>{darkMode ? <span className="btn btn-outline-info">off <FontAwesomeIcon icon={faMoon} /></span> : <span className="btn btn-dark">on <FontAwesomeIcon icon={faMoon} /></span>} </span>
+                            </StyledApp>
+                        </ThemeProvider>
                     </Navbar>
                 </div>
 

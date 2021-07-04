@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogDetail from '../BlogDetail/BlogDetail';
-import blog from '../../images/blog.png'
+import BlogSvg from '../../svg/Blog.svg'
 
 const blogDetails =[
     { 
@@ -31,7 +31,7 @@ const Blog = () => {
         <div>
             <h1 className="text-center text-danger border border-info p-2 rounded-pill"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">My Articles </h1>
             <div className="text-center"  data-aos="zoom-in-down"  data-aos-duration="3000">
-               <img className="w-75" src={blog} alt=""/>
+               <img className="w-75" src={BlogSvg} alt=""/>
             </div>
             <div className="row">
                 {

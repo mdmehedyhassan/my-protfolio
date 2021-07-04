@@ -1,14 +1,14 @@
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import resume from '../../images/resume.gif'
+import ResumeSvg from '../../svg/Resume.svg'
 
 const Resume = () => {
     return (
         <div className="text-light pt-5 mt-5 pb-5 mb-5">
             <h1 className="text-center text-danger border border-info p-2 mt-3 rounded-pill"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">Resume, Education, Work History</h1>
             <div className="text-center"  data-aos="zoom-in-down"  data-aos-duration="3000">
-                <img className="w-75" src={resume} alt=""/>
+                <img className="w-75" src={ResumeSvg} alt=""/>
             </div>
             <div className="row">
                 <div className="col-md-6 col-12 project-detail-card" data-aos="zoom-in-up" data-aos-duration="3000">
