@@ -13,11 +13,13 @@ import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import NoMatch from './components/NoMatch/NoMatch';
 import Contact from './components/Contact/Contact';
+import AOS from 'aos';
 
 
 
 function App() {
-  return (
+    AOS.init();
+    return (
     <div className="main-app-container">
       <div className="container">
         <Router>
