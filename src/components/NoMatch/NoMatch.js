@@ -1,9 +1,10 @@
 import React from 'react';
+import NoMatchSvg from '../../svg/NoMatch.svg'
 
 const NoMatch = () => {
     return (
         <div>
-            <h3> No match for 404  </h3>
+            <img src={NoMatchSvg} alt="" />
         </div>
     );
 };

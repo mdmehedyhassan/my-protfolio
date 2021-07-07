@@ -3,12 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from "react";
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import styled, { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
 
-const StyledApp = styled.div`
-  color: ${(props) => props.theme.fontColor};
-`;
+
 
 const Header = () => {
     const [theme, setTheme] = useState("light");
@@ -41,9 +39,7 @@ const Header = () => {
                         </Navbar.Collapse>
                         <ThemeProvider theme={theme === "dark" ? lightTheme : darkTheme}>
                             <GlobalStyles />
-                            <StyledApp>
                                 <span className="p-2" onClick={() => [themeToggler(), setDarkMode(!darkMode)]}>{darkMode ? <span className="btn btn-outline-info">off <FontAwesomeIcon icon={faMoon} /></span> : <span className="btn btn-dark">on <FontAwesomeIcon icon={faMoon} /></span>} </span>
-                            </StyledApp>
                         </ThemeProvider>
                     </Navbar>
                 </div>

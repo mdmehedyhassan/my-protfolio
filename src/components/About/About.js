@@ -28,7 +28,7 @@ const About = () => {
                 <div className="text-center" data-aos="zoom-out" data-aos-duration="2000">
                     <img className="w-75" src={About2} alt="" />
                 </div>
-                <div className="row ">
+                <div className="row " data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">CSS</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -38,7 +38,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">HTML</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -48,7 +48,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">JavaScript</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -58,7 +58,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">React</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -68,7 +68,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Bootstrap</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -78,7 +78,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Node.js</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -88,7 +88,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Material ui</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -98,7 +98,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Express.js</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -108,7 +108,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Mongodb</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -118,7 +118,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Firebase</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -128,7 +128,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Heroku</p>
                     <div className="col-md-10">
                         <div className="progress">
@@ -138,7 +138,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row"  data-aos="fade-left" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                     <p className="col-md-2">Redux</p>
                     <div className="col-md-10">
                         <div className="progress">
